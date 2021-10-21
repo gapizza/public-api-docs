@@ -75,6 +75,9 @@ But may still want to see the remainder in case they have been voided.
   "dateTime": "2021-10-21T12:59:23.680Z",
   "timestamp": 1634821163680,
   "data": {
+    // Pass into the next request as `pagination.after` to move to the next page
+    "nextAfter": "2021-10-21T16:06:39.841Z",
+    
     // List of up to LIMIT orders
     "list": [
       {
