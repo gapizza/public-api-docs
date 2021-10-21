@@ -32,13 +32,13 @@ The entire request is validated before any of it is acted upon, and any invalid 
       carrier: 'tyltgo', // Options are 'tyltgo' | 'pickup' | 'specialDelivery' 
       
       // Array of tracking numbers (optional)
-      trackingNumbers: ['some-tracking-number'];
+      trackingNumbers: ['some-tracking-number'],
       
       // Array of tracking URLs (optional)
-      trackingUrls: ['some-tracking-url'];
+      trackingUrls: ['some-tracking-url'],
       
       // Estimatated delivery date (optional)
-      estimatedDeliveryDate: Date | null;
+      estimatedDeliveryDate: '2020-10-01T00:00:00.000Z',
       
       items: [
         {
