@@ -93,6 +93,7 @@ But may still want to see the remainder in case they have been voided.
             "bundleDefinitionId": "bndl-def-price_1JktyAEAvJFf3sgIqockyD59",
             "bundleId": "5717ad54-c0b9-432b-8979-9d3b1005c3aa",
             "metadata": null,
+            // SKU is null for non-shippable items
             "sku": null
           },
           {
