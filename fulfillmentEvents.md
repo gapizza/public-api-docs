@@ -32,10 +32,10 @@ The entire request is validated before any of it is acted upon, and any invalid 
       carrier: 'tyltgo', // Options are 'tyltgo' | 'pickup' | 'specialDelivery' 
       
       // Array of tracking numbers (optional)
-      trackingNumbers: string[];
+      trackingNumbers: ['some-tracking-number'];
       
       // Array of tracking URLs (optional)
-      trackingUrls: string[];
+      trackingUrls: ['some-tracking-url'];
       
       // Estimatated delivery date (optional)
       estimatedDeliveryDate: Date | null;
