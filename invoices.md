@@ -1,6 +1,6 @@
-# Orders
+# Invoices
 
-**Path**: `/api/v1/orders/search`
+**Path**: `/api/v1/invoices/search`
 
 **Method**: `POST`
 
@@ -41,11 +41,11 @@
 
 ```
 
-**Example request for orders by updatedAt**
+**Example request for invoices by updatedAt**
 
-This will return all orders updated after `2021-10-20T00:00:00.000Z`, 100 at a time.
+This will return all invoices updated after `2021-10-20T00:00:00.000Z`, 100 at a time.
 
-Because there is no filter for status, you'll have to filter on the client side for orders that are set to `paid`. 
+Because there is no filter for status, you'll have to filter on the client side for invoices that are set to `paid`. 
 But may still want to see the remainder in case they have been voided.
 
 ```javascript
