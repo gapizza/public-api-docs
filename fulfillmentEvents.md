@@ -16,6 +16,8 @@ Updating all items in the invoice to `fulfilled` will update the associated invo
 
 You can repeatedly update the same items for the same invoice, and the latest event is considered the current status.
 
+The entire request is validated before any of it is acted upon, and any invalid data will result in an error.
+
 ```javascript
 {
   fulfillmentEvents: [
